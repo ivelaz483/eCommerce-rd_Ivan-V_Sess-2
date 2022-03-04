@@ -1,0 +1,53 @@
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    flex: 25%;
+  }
+  
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 75px;
+  height: 75px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #extitle2 {
+    font-size: 2vw;
+    font-family: 'Roboto Serif', serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#extitle {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1vw;
+  }

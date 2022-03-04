@@ -1,0 +1,48 @@
+  .column {
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+
+h1 {
+  font-family: 'Roboto Serif', serif;
+
+  font-family: 'Ubuntu', sans-serif;
+
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+figcaption {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+
+.foot {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(65, 65, 65);
+  
+}
+
+.foot > div {
+  background-color: rgb(65, 65, 65);
+  width: 100%;
+  margin: 30px;
+  text-align: center;
+  line-height: 32px;
+  color: rgb(165, 165, 165);
+  font-family: 'Ubuntu Mono', monospace;
+
+}

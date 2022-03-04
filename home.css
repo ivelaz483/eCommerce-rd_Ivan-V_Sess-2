@@ -1,0 +1,153 @@
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+#navt {
+  font-family: 'Roboto Serif', serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Ubuntu Mono', monospace;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: none;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  .item3 {
+    grid-area: 1 / 2 / 5 / 6;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: none;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .flex-container2 {
+    display: flex;
+    background-color: none;
+    width: 50%;
+  }
+  
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .flex-container3 {
+    display: flex;
+    background-color: none;
+    height: 50vh;
+  }
+  
+  .flex-container3 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(26, 26, 26);
+  }
+
+
+  .foot {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+    
+  }
+  
+  .foot > div {
+    background-color: rgb(65, 65, 65);
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+    line-height: 32px;
+    color: rgb(165, 165, 165);
+    font-family: 'Ubuntu Mono', monospace;
+
+  }
+
+  #top {
+      font-size: 3vw;
+      text-align: center;
+      font-family: 'Roboto Serif', serif;
+
+      font-family: 'Ubuntu', sans-serif;
+  
+      font-family: 'Ubuntu Mono', monospace;
+  }
+
+  #extitle {
+      font-size: 3.25vw;
+      font-family: 'Roboto Serif', serif;
+
+      font-family: 'Ubuntu', sans-serif;
+  
+      font-family: 'Ubuntu Mono', monospace;
+  }
+
+  #extitle2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2vw;
+  }
+
+  #extitle3 {
+    font-size: 2.25vw;
+    font-family: 'Roboto Serif', serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#extitle4 {
+    margin-top: -3vh;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5vw;
+}
+
+#extitle5 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1vw;
+}
+
+#extitle6 {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.25vw;
+  }
+
